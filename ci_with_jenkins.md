@@ -22,6 +22,7 @@ Historical was very slow. DevOps was introduced to acquire quick deploymet time,
 
 ## What's difference CI delivery and CI deployment
 - Ci delivery
+	- Sends it constant state to be ready for deployment 
 	- Ci delivery is after integration and done manually (Node app.js manually) and operates before the release to the client
 - Ci Deployment 
 	- Ci deployment is done automated with reverse proxy using just node app.js - only when all tests pass - After release to client 
